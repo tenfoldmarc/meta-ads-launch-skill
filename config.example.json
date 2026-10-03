@@ -1,0 +1,42 @@
+{
+  "setupComplete": true,
+  "setupDate": "2026-10-02",
+  "connector": "mcp",
+  "ad_account_id": "act_000000000000000",
+  "currency": "USD",
+  "timezone": "America/New_York",
+  "page_id": "000000000000000",
+  "instagram_account_id": "000000000000000",
+  "pixel_id": "000000000000000",
+  "offers": [
+    {
+      "name": "Example Course",
+      "description": "A self-paced course that teaches X",
+      "price": 97,
+      "goal": "sales",
+      "objective": "OUTCOME_SALES",
+      "conversion_event": "PURCHASE",
+      "landing_page": "https://example.com/course",
+      "target_cpa": 40
+    }
+  ],
+  "default_daily_budget": 100,
+  "max_daily_budget": 500,
+  "countries": ["US", "CA", "GB", "AU", "NZ"],
+  "special_ad_category": "NONE",
+  "exclude_audience_ids": [],
+  "notify": { "slack_channel": null },
+  "rules": {
+    "close_band_pct": 30,
+    "way_off_pct": 50,
+    "scale_step_pct": 20,
+    "deep_cut_pct": 30,
+    "min_conversions_to_scale": 3,
+    "zero_conv_cut_multiple": 2,
+    "min_days_between_budget_changes": 3,
+    "review_every_days": 3,
+    "proposal_expiry_hours": 48
+  },
+  "audit_summary": "",
+  "scheduled_task": { "type": "desktop", "id": "meta-ads-optimizer" }
+}

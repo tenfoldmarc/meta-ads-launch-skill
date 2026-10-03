@@ -76,10 +76,16 @@ Hit Enter. On your first run, it walks you through setup: connecting Meta, audit
 <details>
 <summary>Prefer the terminal? Manual install</summary>
 
-Open Terminal (Mac: `Command + Space`, type Terminal. Windows: `Win + R`, type cmd). Paste this one line and hit Enter:
+**Mac or Linux:** open Terminal (`Command + Space`, type Terminal). Paste this one line and hit Enter:
 
 ```bash
 git clone https://github.com/tenfoldmarc/meta-ads-launch-skill ~/.claude/skills/meta-ads-launch
+```
+
+**Windows:** open PowerShell (Start menu, type PowerShell). Paste this one line and hit Enter:
+
+```powershell
+git clone https://github.com/tenfoldmarc/meta-ads-launch-skill "$HOME\.claude\skills\meta-ads-launch"
 ```
 
 Then type `claude` to open Claude Code and run `/meta-ads-launch`.
